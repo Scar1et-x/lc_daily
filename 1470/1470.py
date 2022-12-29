@@ -11,7 +11,7 @@ class Solution:
 
     def run(self, test_cases: List[Tuple[List[int], int, List[int]]]):
         for nums, n, expected in test_cases:
-            assert self.shffule(nums, n) == expected
+            assert self.shuffle(nums, n) == expected
 
 
 if __name__ == "__main__":
