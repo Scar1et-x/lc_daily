@@ -1,2 +1,3 @@
 fmt:
 	black .
+	mypy .
